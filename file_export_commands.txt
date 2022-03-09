@@ -1,0 +1,3 @@
+From command line (in working directory): 
+
+jupyter-nbconvert --to PDFviaHTML notebook_name.ipynb --no-input
