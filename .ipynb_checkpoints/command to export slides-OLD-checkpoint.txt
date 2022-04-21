@@ -1,0 +1,21 @@
+
+
+jupyter-nbconvert --to slides bitdefender-vpn-analysis.ipynb --reveal-prefix=revealjs --SlidesExporter.reveal_scroll=True
+
+
+RISE VERSION
+jupyter nbconvert --to slides bitdefender-vpn-analysis.ipynb --post serve --no-input
+
+
+jupyter nbconvert bitdefender-vpn-analysis.ipynb --to slides --reveal-prefix revealjs --SlidesExporter.reveal_scroll=True --no-input
+
+
+
+
+git submodule add git@github.com:hakimel/reveal.js.git revealjs 
+
+
+
+To use Hide Code extensions:
+
+jupyter notebook --NotebookApp.nbserver_extensions="{'hide_code.hide_code': True}"
